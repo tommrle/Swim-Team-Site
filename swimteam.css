@@ -1,0 +1,127 @@
+p { color:black; }
+
+body {
+background:#c7e0fd;
+text-align:left;
+/*
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c7e0fd), to(#1a82f7));
+   background: -webkit-linear-gradient(top, #c7e0fd, #1a82f7);
+   background:    -moz-linear-gradient(top, #c7e0fd, #1a82f7);
+   background:     -ms-linear-gradient(top, #c7e0fd, #1a82f7);
+   background:      -o-linear-gradient(top, #c7e0fd, #1a82f7);
+   */
+font-family: gill sans;
+}
+
+#title {
+color:#0867d5;margin-left:10px;
+}
+
+#header {
+position:absolute;
+top:0px;
+padding-top:5px;
+text-indent:10px;
+margin-left:-160px;
+height:25px;
+width:860px;
+border-bottom: 1px solid lightgray;
+
+background:lightgray;
+background:-webkit-gradient(linear, 0 0, 0 100%, from(lightgray), to(white));
+background: -webkit-linear-gradient(top, lightgray, white);
+background:    -moz-linear-gradient(top, lightgray, white);
+background:     -ms-linear-gradient(top, lightgray, white);
+background:      -o-linear-gradient(top, lightgray, white);
+
+/*
+border-right: 1px solid black;
+border-left: 1px solid black;
+*/
+
+
+}
+
+#announcementheader {
+text-align:center;
+border:0px;
+
+background:gray;
+background:-webkit-gradient(linear, 0 0, 0 100%, from(gray), to(white));
+background: -webkit-linear-gradient(top, gray, white);
+background:    -moz-linear-gradient(top, gray, white);
+background:     -ms-linear-gradient(top, gray, white);
+background:      -o-linear-gradient(top, gray, white);
+}
+
+.mainbox {
+background:white;
+width:700px;
+min-height:100%;
+height:100%;
+border-left:1px solid lightgray;
+border-right:1 px solid lightgray;
+margin:auto;
+}
+
+.annoucements {
+overflow:auto;
+height:150px;
+border-color: 1px solid white;
+margin-left:10px;
+background:lightgray;
+width:97%;
+position:relative;
+
+}
+
+#box {
+background: green;
+height:100px;
+width:-100px;
+float:left;
+}
+
+#sidebox {
+position:fixed;
+background:white;
+border-right: 0px;
+float:right;
+margin-top:100px;
+width:140px;
+margin-left:-160px;
+/*margin-left:-250px;*/
+padding:5px;
+
+}
+
+#sidebar {
+background:white;
+position:fixed;
+height:100%;
+margin-left:-160px;
+width:150px;
+float:left;
+opacity:0.25;
+z-index:-1;
+}
+
+table {
+border-collapse:collapse;
+}
+
+tr.whiterows{
+width:100%;
+border-bottom:1 px solid white;
+}
+
+#underline { 
+    /*margin: 25px 0;*/
+    margin-left: 2px;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 75% 0, from(black), to(white), color-stop(50%, black));
+}​
+
+
+
